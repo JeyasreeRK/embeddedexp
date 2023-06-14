@@ -1,13 +1,8 @@
-#include<AT89S52.h>
-void main()
-{
-P2_0=1;
+#include <AT89s52.h>
+void main(){
+
 while(1)
 {
-if(P2_1==0)
 P2_0=0;
-
-else
-P2_0=1;
 }
 }
