@@ -33,7 +33,7 @@ char d=0xAA;
 while(1){
 P0=d;
 time(1);
-P0=d<<1;
+P0=(d<<1)|(d>>7);
 time(1);
 }
 
