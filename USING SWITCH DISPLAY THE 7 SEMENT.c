@@ -10,7 +10,7 @@ void main(){
   sev=0xFF;
  while(1){
   char k=sw;
-  for(i=0;i<9;i++){
+  for(i=0;i<8;i++){
   if(k==c1[i]){
  break;
   }else{
