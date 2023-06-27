@@ -1,0 +1,27 @@
+#include <At89s52.h>
+#define sev P0
+#define sw P1
+const char c[11]={0xC0,0xF9,0xA4,0xB0,0x99,0x92,0x82,0xF8,0x80,0x90};
+const char c1[10]={0xFE,0xFD,0xFB,0xF7,0xEF,0xDF,0xBF,0x7F};
+
+void main(){
+  char i;
+  sw=0xFF;
+  sev=0xFF;
+ while(1){
+  char k=sw;
+  for(i=0;i<9;i++){
+  if(k==c1[i]){
+ break;
+  }else{
+  
+  }
+  
+  }
+  if(i!=8){
+  sev=c[i];
+  }else{
+   sev=0xFF;
+  }
+  }
+ }
